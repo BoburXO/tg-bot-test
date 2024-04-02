@@ -10,24 +10,23 @@ form {
   display: flex;
   gap: 10px;
   flex-direction: column;
-  width: 50%;
+  width: 95%;
   max-width: 700px;
   margin: 0 auto;
-  padding: 100px;
+  padding: clamp(1.25rem, -0.568rem + 9.09vw, 6.25rem);
   input {
-    height: 50px;
+    height: clamp(1.875rem, 1.42rem + 2.27vw, 3.125rem);
     padding-left: 20px;
-    font-size: 24px;
+    font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
     outline: none;
-    border: 2px solid red;
     border-radius: 10px;
   }
   button {
-    height: 50px;
+    height: clamp(1.875rem, 1.42rem + 2.27vw, 3.125rem);
     background-color: red;
     color: #fff;
     border: 0;
-    font-size: 24px;
+    font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
     border-radius: 10px;
     cursor: pointer;
     transition: all .3s;
@@ -39,7 +38,7 @@ form {
 
 
 .tg{
-  font-size: 24px;
+  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
   text-align: center;
   padding-top: 20px;
 }
